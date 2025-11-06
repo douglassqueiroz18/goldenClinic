@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golden Click Odontologia Avançada</title>
+  <style>
+    /* ======= RESET ======= */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* ======= ESTILOS GERAIS ======= */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #1a1a1a 30%, #000 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: #d4af37;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 15px rgba(212, 175, 55, 0.6);
+      text-align: center;
+    }
+
+    h1 span {
+      display: block; /* <-- Força o span para a linha de baixo */
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-top: 5px;
+    }
+
+    .tooth {
+      font-size: 2.5rem;
+      color: #d4af37;
+      text-shadow: 0 0 15px rgba(212, 175, 55, 0.8);
+      transform: translateY(3px);
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #ccc;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+
+    /* ======= BOTÕES ======= */
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .social-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 25px;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: #fff;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+      border: 2px solid transparent;
+    }
+
+    .social-button img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .whatsapp {
+      background-color: #25d366;
+    }
+
+    .instagram {
+      background: linear-gradient(45deg, #d4af37, #b8860b);
+      color: #000;
+    }
+
+    .social-button:hover {
+      transform: scale(1.07);
+      box-shadow: 0 0 25px rgba(212, 175, 55, 0.7);
+      border-color: #d4af37;
+    }
+
+    /* ======= RODAPÉ ======= */
+    footer {
+      position: absolute;
+      bottom: 10px;
+      color: #888;
+      font-size: 0.9rem;
+      text-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+    }
+
+    /* ======= RESPONSIVIDADE ======= */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      .social-button {
+        padding: 12px 20px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    Golden Clin🦷k 
+    <span>Odontologia Avançada</span>
+  </h1>
+
+  <p>Excelência em saúde e estética bucal.  
+     Agende sua avaliação ou acompanhe nossas novidades nas redes sociais.</p>
+
+  <div class="button-group">
+    <!-- Botão WhatsApp -->
+    <a 
+      href="https://wa.me/5567992888234" 
+      target="_blank" 
+      class="social-button whatsapp"
+    >
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+      Falar no WhatsApp
+    </a>
+
+    <!-- Botão Instagram -->
+    <a 
+      href="https://instagram.com/goldenclinic.odontologiatl" 
+      target="_blank" 
+      class="social-button instagram"
+    >
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+      Ver no Instagram
+    </a>
+  </div>
+
+  <footer>© 2025 Golden Click Odontologia Avançada - Todos os direitos reservados.</footer>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      console.log('Landing page da Golden Click carregada com sucesso!');
+    });
+  </script>
+</body>
+</html>
